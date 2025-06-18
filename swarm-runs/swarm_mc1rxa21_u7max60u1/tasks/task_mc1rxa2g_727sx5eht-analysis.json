@@ -1,0 +1,34 @@
+{
+  "id": {
+    "id": "task_mc1rxa2g_727sx5eht-analysis",
+    "swarmId": "auto-strategy",
+    "sequence": 1,
+    "priority": 1
+  },
+  "name": "Intelligent Analysis",
+  "type": "analysis",
+  "status": "completed",
+  "result": {
+    "output": {
+      "output": "",
+      "artifacts": {},
+      "metadata": {
+        "executionTime": 6,
+        "sparcMode": "architect",
+        "command": "/workspaces/claude-code-flow/bin/claude-flow sparc run architect \"Analyze and understand: refactor this project to use LM studio as an OpenAI compatiable API provider. users should be able to specify the url as an environment variable\" --non-interactive --yes",
+        "exitCode": 127,
+        "quality": 0.95,
+        "completeness": 0.9
+      },
+      "error": "/bin/sh: 1: /workspaces/claude-code-flow/bin/claude-flow: not found\n"
+    },
+    "artifacts": {},
+    "metadata": {},
+    "quality": 0.8,
+    "completeness": 1,
+    "accuracy": 1,
+    "executionTime": 15,
+    "resourcesUsed": {},
+    "validated": false
+  }
+}

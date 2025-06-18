@@ -1,0 +1,52 @@
+{
+  "swarmId": "swarm_mc1rxa21_u7max60u1",
+  "objectiveId": "objective_mc1rxa25_4ynwj4ow1",
+  "objective": "refactor this project to use LM studio as an OpenAI compatiable API provider. users should be able to specify the url as an environment variable",
+  "strategy": "auto",
+  "mode": "centralized",
+  "agents": [
+    "agent_mc1rxa2g_6pa7xv1mt",
+    "agent_mc1rxa2h_bgd23b2h9",
+    "agent_mc1rxa2h_j40vthajf",
+    "agent_mc1rxa2h_jep1ipo1j",
+    "agent_mc1rxa2h_qmfjg343w"
+  ],
+  "options": {
+    "strategy": "auto",
+    "mode": "centralized",
+    "maxAgents": 5,
+    "maxTasks": 100,
+    "timeout": 60,
+    "taskTimeout": 300000,
+    "taskTimeoutMinutes": 59,
+    "maxRetries": 3,
+    "qualityThreshold": 0.8,
+    "parallel": false,
+    "background": false,
+    "distributed": false,
+    "review": false,
+    "testing": false,
+    "monitor": false,
+    "verbose": false,
+    "streamOutput": false,
+    "memoryNamespace": "swarm",
+    "persistence": true,
+    "encryption": false,
+    "agentSelection": "capability-based",
+    "taskScheduling": "priority",
+    "loadBalancing": "work-stealing",
+    "faultTolerance": "retry",
+    "communication": "event-driven",
+    "ui": false,
+    "dryRun": false
+  },
+  "startTime": "2025-06-18T09:52:46.649Z",
+  "coordinator": {
+    "initialized": true,
+    "swarmId": {
+      "id": "swarm_mc1rxa21_pg20422la",
+      "timestamp": 1750240366633,
+      "namespace": "default"
+    }
+  }
+}

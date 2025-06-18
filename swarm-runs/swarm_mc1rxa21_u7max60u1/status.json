@@ -1,0 +1,106 @@
+{
+  "timestamp": "2025-06-18T09:52:51.651Z",
+  "swarmStatus": {
+    "status": "executing",
+    "objectives": 1,
+    "tasks": {
+      "completed": 2,
+      "failed": 0,
+      "total": 2
+    },
+    "agents": {
+      "total": 5
+    }
+  },
+  "objective": {
+    "id": "objective_mc1rxa25_4ynwj4ow1",
+    "name": "Swarm-swarm_mc1rxa21_u7max60u1",
+    "status": "completed",
+    "progress": {
+      "totalTasks": 2,
+      "completedTasks": 2,
+      "failedTasks": 0,
+      "runningTasks": 0,
+      "estimatedCompletion": "2025-06-18T09:52:46.637Z",
+      "timeRemaining": 0,
+      "percentComplete": 100,
+      "averageQuality": 0,
+      "passedReviews": 0,
+      "passedTests": 0,
+      "resourceUtilization": {},
+      "costSpent": 0,
+      "activeAgents": 0,
+      "idleAgents": 0,
+      "busyAgents": 0
+    }
+  },
+  "agents": [
+    {
+      "id": {
+        "id": "agent_mc1rxa2g_6pa7xv1mt",
+        "swarmId": "swarm_mc1rxa21_pg20422la",
+        "type": "coordinator",
+        "instance": 1
+      },
+      "name": "coordinator-1",
+      "type": "coordinator",
+      "status": "idle",
+      "tasksCompleted": 0
+    },
+    {
+      "id": {
+        "id": "agent_mc1rxa2h_bgd23b2h9",
+        "swarmId": "swarm_mc1rxa21_pg20422la",
+        "type": "developer",
+        "instance": 1
+      },
+      "name": "developer-1",
+      "type": "developer",
+      "status": "idle",
+      "tasksCompleted": 0
+    },
+    {
+      "id": {
+        "id": "agent_mc1rxa2h_j40vthajf",
+        "swarmId": "swarm_mc1rxa21_pg20422la",
+        "type": "researcher",
+        "instance": 1
+      },
+      "name": "researcher-1",
+      "type": "researcher",
+      "status": "idle",
+      "tasksCompleted": 0
+    },
+    {
+      "id": {
+        "id": "agent_mc1rxa2h_jep1ipo1j",
+        "swarmId": "swarm_mc1rxa21_pg20422la",
+        "type": "analyzer",
+        "instance": 1
+      },
+      "name": "analyzer-1",
+      "type": "analyzer",
+      "status": "idle",
+      "tasksCompleted": 0
+    },
+    {
+      "id": {
+        "id": "agent_mc1rxa2h_qmfjg343w",
+        "swarmId": "swarm_mc1rxa21_pg20422la",
+        "type": "coordinator",
+        "instance": 2
+      },
+      "name": "coordinator-2",
+      "type": "coordinator",
+      "status": "idle",
+      "tasksCompleted": 0
+    }
+  ],
+  "tasks": {
+    "total": 2,
+    "completed": 2,
+    "inProgress": 0,
+    "pending": 0,
+    "failed": 0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "completed": true,
+  "endTime": "2025-06-18T09:52:51.654Z",
+  "metrics": {
+    "throughput": 0,
+    "latency": 0,
+    "efficiency": 0,
+    "reliability": 0,
+    "averageQuality": 0,
+    "defectRate": 0,
+    "reworkRate": 0,
+    "resourceUtilization": {},
+    "costEfficiency": 0,
+    "agentUtilization": 0,
+    "agentSatisfaction": 0,
+    "collaborationEffectiveness": 0,
+    "scheduleVariance": 0,
+    "deadlineAdherence": 0
+  },
+  "executorMetrics": {
+    "activeExecutions": 0,
+    "totalExecutions": 0,
+    "averageDuration": 0,
+    "successRate": 0,
+    "resourceUtilization": {
+      "cpu": 0.1,
+      "memory": 0.2,
+      "disk": 0.05,
+      "network": 0.01
+    },
+    "errorRate": 0
+  },
+  "memoryStats": {
+    "totalEntries": 0,
+    "totalSize": 0,
+    "partitionCount": 4,
+    "entriesByType": {
+      "knowledge": 0,
+      "state": 0,
+      "cache": 0,
+      "logs": 0,
+      "results": 0,
+      "communication": 0,
+      "configuration": 0,
+      "metrics": 0
+    },
+    "entriesByAccess": {
+      "private": 0,
+      "team": 0,
+      "swarm": 0,
+      "public": 0,
+      "system": 0
+    },
+    "averageSize": 0,
+    "oldestEntry": "2025-06-18T09:52:51.653Z",
+    "newestEntry": "1970-01-01T00:00:00.000Z",
+    "expiringEntries": 0
+  },
+  "swarmStatus": {
+    "status": "executing",
+    "objectives": 1,
+    "tasks": {
+      "completed": 2,
+      "failed": 0,
+      "total": 2
+    },
+    "agents": {
+      "total": 5
+    }
+  }
+}
